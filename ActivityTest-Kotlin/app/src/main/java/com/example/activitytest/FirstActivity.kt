@@ -4,19 +4,20 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.Toast
 
-class FirstActivity : AppCompatActivity() {
+class FirstActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("FirstActivity", "Task id is $taskId")
         setContentView(R.layout.first_layout)
         val button1:Button=findViewById(R.id.button_1)
         button1.setOnClickListener{
-            val intent = Intent(this,SecondActivity::class.java)
-            startActivityForResult(intent,1)
+            SecondActivity.actionStart(this,"data1","data2")
         }
     }
 
@@ -41,5 +42,10 @@ class FirstActivity : AppCompatActivity() {
                 Toast.makeText(this,returnedData,Toast.LENGTH_LONG).show()
             }
         }
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("FirstActivity", "onRestart: ")
     }
 }

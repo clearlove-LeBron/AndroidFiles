@@ -4,15 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/startNormalActivity"
-        android:text="Start NormalActivity"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/startDialogActivity"
-        android:text="Start DialogActivity"/>
+        android:text="This is a dialog activity"/>
 
 </LinearLayout>

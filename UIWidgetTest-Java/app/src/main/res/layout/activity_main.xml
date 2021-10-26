@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="#00ff00"-->
+<!--        android:text="This is TextView!" />-->
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        android:textAllCaps="false"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/edit_text"-->
+<!--        android:hint="Type something here"-->
+<!--        android:maxLines="2"/>-->
+
+<!--    <ProgressBar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/progress_bar"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:max="100"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/image_view"-->
+<!--        android:src="@drawable/img_1"/>-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:text="Button 1"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="Button 2"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:text="Button 3"/>-->
+<!--            <EditText-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/input_message"-->
+<!--                android:layout_weight="1"-->
+<!--                android:hint="Type something"/>-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Send"-->
+<!--                android:id="@+id/send"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_above="@id/button3"-->
+<!--            android:layout_toLeftOf="@id/button3"-->
+<!--            android:text="Button 1"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_above="@id/button3"-->
+<!--            android:layout_toRightOf="@id/button3"-->
+<!--            android:text="Button 2"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:text="Button 3"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_below="@id/button3" -->
+<!--            android:layout_toLeftOf="@id/button3"-->
+<!--            android:text="Button 4"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button5"-->
+<!--            android:layout_below="@id/button3"-->
+<!--            android:layout_toRightOf="@id/button3"-->
+<!--            android:text="Button 5"/>-->
+<!--             <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/text_view"-->
+<!--                android:layout_gravity="left"-->
+<!--                android:text="This is TextView"/>-->
+<!--             <ImageView-->
+<!--                 android:layout_width="wrap_content"-->
+<!--                 android:layout_height="wrap_content"-->
+<!--                 android:id="@+id/image_view"-->
+<!--                 android:layout_gravity="right"-->
+<!--                 android:src="@mipmap/ic_launcher"/>-->
+
+
+</androidx.percentlayout.widget.PercentFrameLayout>
